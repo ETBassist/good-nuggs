@@ -1,0 +1,295 @@
+{
+  "vertices": [
+    {
+      "id": "1",
+      "position": {
+        "x": 60,
+        "y": 316
+      },
+      "data": {
+        "label": "The Nuggs"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 60,
+        "y": 316
+      }
+    },
+    {
+      "id": "2",
+      "position": {
+        "x": 258,
+        "y": 184
+      },
+      "data": {
+        "label": "Chicago Bears"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 258,
+        "y": 184
+      }
+    },
+    {
+      "id": "3",
+      "position": {
+        "x": 504,
+        "y": 166
+      },
+      "data": {
+        "label": "Rodger Federer"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 504,
+        "y": 166
+      }
+    },
+    {
+      "id": "4",
+      "position": {
+        "x": 738,
+        "y": 173
+      },
+      "data": {
+        "label": "San Francisco Giants"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 738,
+        "y": 173
+      }
+    },
+    {
+      "id": "5",
+      "position": {
+        "x": 979,
+        "y": 176
+      },
+      "data": {
+        "label": "Anthony Edwards"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 979,
+        "y": 176
+      }
+    },
+    {
+      "id": "6",
+      "position": {
+        "x": 1159,
+        "y": 299
+      },
+      "data": {
+        "label": "Stanley Cup"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 1159,
+        "y": 299
+      }
+    },
+    {
+      "id": "7",
+      "position": {
+        "x": 131,
+        "y": 445
+      },
+      "data": {
+        "label": "Yes"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 131,
+        "y": 445
+      }
+    },
+    {
+      "id": "8",
+      "position": {
+        "x": 333,
+        "y": 432
+      },
+      "data": {
+        "label": "No"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 333,
+        "y": 432
+      }
+    },
+    {
+      "id": "9",
+      "position": {
+        "x": 501,
+        "y": 433
+      },
+      "data": {
+        "label": "Yes"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 501,
+        "y": 433
+      }
+    },
+    {
+      "id": "10",
+      "position": {
+        "x": 659,
+        "y": 435
+      },
+      "data": {
+        "label": "No"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 659,
+        "y": 435
+      }
+    },
+    {
+      "id": "11",
+      "position": {
+        "x": 616.0989908496729,
+        "y": 573.673931069543
+      },
+      "data": {
+        "label": "Yes"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 616.0989908496729,
+        "y": 573.673931069543
+      }
+    },
+    {
+      "id": "12",
+      "position": {
+        "x": 809.4042010279078,
+        "y": 572.4774080621794
+      },
+      "data": {
+        "label": "No"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 809.4042010279078,
+        "y": 572.4774080621794
+      }
+    },
+    {
+      "id": "13",
+      "position": {
+        "x": 902.8888105734457,
+        "y": 433.81963626597485
+      },
+      "data": {
+        "label": "Yes"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 902.8888105734457,
+        "y": 433.81963626597485
+      }
+    },
+    {
+      "id": "14",
+      "position": {
+        "x": 1087.3424831058849,
+        "y": 432.6231132586113
+      },
+      "data": {
+        "label": "No"
+      },
+      "type": "position",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 1087.3424831058849,
+        "y": 432.6231132586113
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1-2",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "id": "e2-3",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "id": "e3-4",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "id": "e4-5",
+      "source": "4",
+      "target": "5"
+    },
+    {
+      "id": "e5-6",
+      "source": "5",
+      "target": "6"
+    },
+    {
+      "id": "e2-7",
+      "source": "2",
+      "target": "7"
+    },
+    {
+      "id": "e2-8",
+      "source": "2",
+      "target": "8"
+    },
+    {
+      "id": "e3-9",
+      "source": "3",
+      "target": "9"
+    },
+    {
+      "id": "e3-10",
+      "source": "3",
+      "target": "10"
+    },
+    {
+      "id": "e4-11",
+      "source": "4",
+      "target": "11"
+    },
+    {
+      "id": "e4-12",
+      "source": "4",
+      "target": "12"
+    },
+    {
+      "id": "e5-13",
+      "source": "5",
+      "target": "13"
+    },
+    {
+      "id": "e5-14",
+      "source": "5",
+      "target": "14"
+    }
+  ]
+}
