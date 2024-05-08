@@ -3,104 +3,109 @@
     {
       "id": "1",
       "position": {
-        "x": 60,
-        "y": 316
+        "x": 20,
+        "y": 201
       },
       "data": {
         "label": "The Nuggs"
       },
-      "type": "position",
+      "type": "customNode",
+      "sourcePosition": "right",
       "dragging": true,
       "positionAbsolute": {
-        "x": 60,
-        "y": 316
+        "x": 20,
+        "y": 201
       }
     },
     {
       "id": "2",
       "position": {
-        "x": 258,
-        "y": 184
+        "x": 240,
+        "y": 76
       },
       "data": {
         "label": "Chicago Bears"
       },
-      "type": "position",
+      "type": "customNode",
+      "targetPosition": "left",
       "dragging": true,
       "positionAbsolute": {
-        "x": 258,
-        "y": 184
+        "x": 240,
+        "y": 76
       }
     },
     {
       "id": "3",
       "position": {
-        "x": 504,
-        "y": 166
+        "x": 583.2676130300977,
+        "y": 98.84094140782507
       },
       "data": {
         "label": "Rodger Federer"
       },
-      "type": "position",
+      "type": "customNode",
+      "targetPosition": "left",
       "dragging": true,
       "positionAbsolute": {
-        "x": 504,
-        "y": 166
+        "x": 583.2676130300977,
+        "y": 98.84094140782507
       }
     },
     {
       "id": "4",
       "position": {
-        "x": 738,
-        "y": 173
+        "x": 831,
+        "y": 146
       },
       "data": {
         "label": "San Francisco Giants"
       },
-      "type": "position",
+      "type": "customNode",
+      "targetPosition": "left",
       "dragging": true,
       "positionAbsolute": {
-        "x": 738,
-        "y": 173
+        "x": 831,
+        "y": 146
       }
     },
     {
       "id": "5",
       "position": {
-        "x": 979,
-        "y": 176
+        "x": 997,
+        "y": 257
       },
       "data": {
         "label": "Anthony Edwards"
       },
-      "type": "position",
+      "type": "customNode",
+      "targetPosition": "left",
       "dragging": true,
       "positionAbsolute": {
-        "x": 979,
-        "y": 176
+        "x": 997,
+        "y": 257
       }
     },
     {
       "id": "6",
       "position": {
-        "x": 1159,
-        "y": 299
+        "x": 1275,
+        "y": 362
       },
       "data": {
         "label": "Stanley Cup"
       },
-      "type": "position",
+      "type": "customNode",
       "dragging": true,
       "positionAbsolute": {
-        "x": 1159,
-        "y": 299
+        "x": 1275,
+        "y": 362
       }
     },
     {
       "id": "7",
       "position": {
-        "x": 131,
-        "y": 445
+        "x": 158,
+        "y": 373
       },
       "data": {
         "label": "Yes"
@@ -108,15 +113,15 @@
       "type": "position",
       "dragging": true,
       "positionAbsolute": {
-        "x": 131,
-        "y": 445
+        "x": 158,
+        "y": 373
       }
     },
     {
       "id": "8",
       "position": {
-        "x": 333,
-        "y": 432
+        "x": 340,
+        "y": 371
       },
       "data": {
         "label": "No"
@@ -124,15 +129,15 @@
       "type": "position",
       "dragging": true,
       "positionAbsolute": {
-        "x": 333,
-        "y": 432
+        "x": 340,
+        "y": 371
       }
     },
     {
       "id": "9",
       "position": {
-        "x": 501,
-        "y": 433
+        "x": 446,
+        "y": 292
       },
       "data": {
         "label": "Yes"
@@ -140,15 +145,15 @@
       "type": "position",
       "dragging": true,
       "positionAbsolute": {
-        "x": 501,
-        "y": 433
+        "x": 446,
+        "y": 292
       }
     },
     {
       "id": "10",
       "position": {
-        "x": 659,
-        "y": 435
+        "x": 628,
+        "y": 293
       },
       "data": {
         "label": "No"
@@ -156,15 +161,15 @@
       "type": "position",
       "dragging": true,
       "positionAbsolute": {
-        "x": 659,
-        "y": 435
+        "x": 628,
+        "y": 293
       }
     },
     {
       "id": "11",
       "position": {
-        "x": 616.0989908496729,
-        "y": 573.673931069543
+        "x": 645.0989908496729,
+        "y": 439.67393106954296
       },
       "data": {
         "label": "Yes"
@@ -172,15 +177,15 @@
       "type": "position",
       "dragging": true,
       "positionAbsolute": {
-        "x": 616.0989908496729,
-        "y": 573.673931069543
+        "x": 645.0989908496729,
+        "y": 439.67393106954296
       }
     },
     {
       "id": "12",
       "position": {
-        "x": 809.4042010279078,
-        "y": 572.4774080621794
+        "x": 857.4042010279078,
+        "y": 438.4774080621794
       },
       "data": {
         "label": "No"
@@ -188,15 +193,15 @@
       "type": "position",
       "dragging": true,
       "positionAbsolute": {
-        "x": 809.4042010279078,
-        "y": 572.4774080621794
+        "x": 857.4042010279078,
+        "y": 438.4774080621794
       }
     },
     {
       "id": "13",
       "position": {
-        "x": 902.8888105734457,
-        "y": 433.81963626597485
+        "x": 951.8888105734457,
+        "y": 507.81963626597485
       },
       "data": {
         "label": "Yes"
@@ -204,15 +209,15 @@
       "type": "position",
       "dragging": true,
       "positionAbsolute": {
-        "x": 902.8888105734457,
-        "y": 433.81963626597485
+        "x": 951.8888105734457,
+        "y": 507.81963626597485
       }
     },
     {
       "id": "14",
       "position": {
-        "x": 1087.3424831058849,
-        "y": 432.6231132586113
+        "x": 1129.3424831058849,
+        "y": 516.6231132586113
       },
       "data": {
         "label": "No"
@@ -220,8 +225,8 @@
       "type": "position",
       "dragging": true,
       "positionAbsolute": {
-        "x": 1087.3424831058849,
-        "y": 432.6231132586113
+        "x": 1129.3424831058849,
+        "y": 516.6231132586113
       }
     }
   ],

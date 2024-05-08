@@ -57,10 +57,12 @@ export default function FlowChart() {
 
     const updateNode = (args) => {
         let params = args[0]
+        
+        let { x, y } = args[0]
 
         var requestOptions = {
             method: "PATCH",
-            body: JSON.stringify(params),
+            body: JSON.stringify({x, y}),
             headers: {"Content-type": "application/json; charset=UTF-8"}
         };
 
