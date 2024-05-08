@@ -1,6 +1,9 @@
 import { Handle, Position } from 'reactflow';
 
-export const CustomNode = ({ data }) => {
+
+
+
+export const OpponentNode = ({ data }) => {
     return (
         <>
             <div style={{ padding: '10px 20px', border: '1px solid black', backgroundColor: 'white' }}>
@@ -8,8 +11,8 @@ export const CustomNode = ({ data }) => {
             </div>
 
             <Handle type="target" position={Position.Left} />
-            <Handle type="source" position={Position.Right} />
-            <Handle type="source" position={Position.Bottom} />
+            <Handle type="source" position={Position.Right} id={`right`} />
+            <Handle type="source" position={Position.Bottom} id={`bottom`} />
         </>
     );
 };

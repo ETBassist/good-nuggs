@@ -3,13 +3,13 @@
     {
       "id": "1",
       "position": {
-        "x": 20,
-        "y": 201
+        "x": 30,
+        "y": 128.2
       },
       "data": {
         "label": "The Nuggs"
       },
-      "type": "customNode",
+      "type": "OpponentNode",
       "sourcePosition": "right",
       "dragging": true,
       "positionAbsolute": {
@@ -20,13 +20,13 @@
     {
       "id": "2",
       "position": {
-        "x": 240,
-        "y": 76
+        "x": 255.44503781303973,
+        "y": 6.497081066493941
       },
       "data": {
         "label": "Chicago Bears"
       },
-      "type": "customNode",
+      "type": "OpponentNode",
       "targetPosition": "left",
       "dragging": true,
       "positionAbsolute": {
@@ -36,14 +36,15 @@
     },
     {
       "id": "3",
+      "hidden": false,
       "position": {
-        "x": 583.2676130300977,
-        "y": 98.84094140782507
+        "x": 527.2698570419282,
+        "y": 2.2137194590945484
       },
       "data": {
         "label": "Rodger Federer"
       },
-      "type": "customNode",
+      "type": "OpponentNode",
       "targetPosition": "left",
       "dragging": true,
       "positionAbsolute": {
@@ -53,14 +54,15 @@
     },
     {
       "id": "4",
+      "hidden": false,
       "position": {
-        "x": 831,
-        "y": 146
+        "x": 794.1906594127806,
+        "y": 9.115264691277943
       },
       "data": {
         "label": "San Francisco Giants"
       },
-      "type": "customNode",
+      "type": "OpponentNode",
       "targetPosition": "left",
       "dragging": true,
       "positionAbsolute": {
@@ -70,14 +72,15 @@
     },
     {
       "id": "5",
+      "hidden": false,
       "position": {
-        "x": 997,
-        "y": 257
+        "x": 1056.8151784542315,
+        "y": 9.687242929619778
       },
       "data": {
         "label": "Anthony Edwards"
       },
-      "type": "customNode",
+      "type": "OpponentNode",
       "targetPosition": "left",
       "dragging": true,
       "positionAbsolute": {
@@ -88,146 +91,197 @@
     {
       "id": "6",
       "position": {
-        "x": 1275,
-        "y": 362
+        "x": 1340.5666379209845,
+        "y": 136.54278890328126
       },
       "data": {
         "label": "Stanley Cup"
       },
-      "type": "customNode",
+      "type": "OpponentNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 1275,
         "y": 362
-      }
+      },
+      "hidden": false
     },
     {
       "id": "7",
       "position": {
-        "x": 158,
-        "y": 373
+        "x": 226.57654937441387,
+        "y": 265.6583890917239
       },
       "data": {
         "label": "Yes"
       },
-      "type": "position",
+      "type": "ResponseNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 158,
         "y": 373
-      }
+      },
+      "revealNodeIds": [
+        3,
+        9,
+        10
+      ]
     },
     {
       "id": "8",
       "position": {
-        "x": 340,
-        "y": 371
+        "x": 373.4404096277688,
+        "y": 268.7153328169333
       },
       "data": {
         "label": "No"
       },
-      "type": "position",
+      "type": "ResponseNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 340,
         "y": 371
-      }
+      },
+      "revealNodeIds": [
+        15
+      ]
     },
     {
       "id": "9",
+      "hidden": false,
       "position": {
-        "x": 446,
-        "y": 292
+        "x": 512.6432095954627,
+        "y": 265.21970543133034
       },
       "data": {
         "label": "Yes"
       },
-      "type": "position",
+      "type": "ResponseNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 446,
         "y": 292
-      }
+      },
+      "revealNodeIds": [
+        4,
+        11,
+        12
+      ]
     },
     {
       "id": "10",
+      "hidden": false,
       "position": {
-        "x": 628,
-        "y": 293
+        "x": 655.4652037902641,
+        "y": 269.76536380127646
       },
       "data": {
         "label": "No"
       },
-      "type": "position",
+      "type": "ResponseNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 628,
         "y": 293
-      }
+      },
+      "revealNodeIds": [
+        15
+      ]
     },
     {
       "id": "11",
       "position": {
-        "x": 645.0989908496729,
-        "y": 439.67393106954296
+        "x": 784.755065348895,
+        "y": 280.7903457396596
       },
       "data": {
         "label": "Yes"
       },
-      "type": "position",
+      "type": "ResponseNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 645.0989908496729,
         "y": 439.67393106954296
-      }
+      },
+      "hidden": false,
+      "revealNodeIds": [
+        5,
+        13,
+        14
+      ]
     },
     {
       "id": "12",
       "position": {
-        "x": 857.4042010279078,
-        "y": 438.4774080621794
+        "x": 917.4386588779267,
+        "y": 286.2961744203592
       },
       "data": {
         "label": "No"
       },
-      "type": "position",
+      "type": "ResponseNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 857.4042010279078,
         "y": 438.4774080621794
-      }
+      },
+      "hidden": false,
+      "revealNodeIds": [
+        15
+      ]
     },
     {
       "id": "13",
       "position": {
-        "x": 951.8888105734457,
-        "y": 507.81963626597485
+        "x": 1019.6256051015271,
+        "y": 287.7252058507391
       },
       "data": {
-        "label": "Yes"
+        "label": "Try your darnedest"
       },
-      "type": "position",
+      "type": "ResponseNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 951.8888105734457,
         "y": 507.81963626597485
-      }
+      },
+      "hidden": false
     },
     {
       "id": "14",
       "position": {
-        "x": 1129.3424831058849,
-        "y": 516.6231132586113
+        "x": 1226.6124904986993,
+        "y": 284.8311428389188
       },
       "data": {
         "label": "No"
       },
-      "type": "position",
+      "type": "ResponseNode",
       "dragging": true,
       "positionAbsolute": {
         "x": 1129.3424831058849,
         "y": 516.6231132586113
-      }
+      },
+      "hidden": false,
+      "revealNodeIds": [
+        15
+      ]
+    },
+    {
+      "id": "15",
+      "position": {
+        "x": 716.9999500775825,
+        "y": 440.172208493045
+      },
+      "data": {
+        "label": "LOOOOOOOOOOSER"
+      },
+      "type": "OpponentNode",
+      "dragging": true,
+      "positionAbsolute": {
+        "x": 1129.3424831058849,
+        "y": 516.6231132586113
+      },
+      "hidden": true
     }
   ],
   "edges": [
@@ -259,42 +313,50 @@
     {
       "id": "e2-7",
       "source": "2",
-      "target": "7"
+      "target": "7",
+      "sourceHandle": "bottom"
     },
     {
       "id": "e2-8",
       "source": "2",
-      "target": "8"
+      "target": "8",
+      "sourceHandle": "bottom"
     },
     {
       "id": "e3-9",
       "source": "3",
-      "target": "9"
+      "target": "9",
+      "sourceHandle": "bottom"
     },
     {
       "id": "e3-10",
       "source": "3",
-      "target": "10"
+      "target": "10",
+      "sourceHandle": "bottom"
     },
     {
       "id": "e4-11",
       "source": "4",
-      "target": "11"
+      "target": "11",
+      "sourceHandle": "bottom"
     },
     {
       "id": "e4-12",
       "source": "4",
-      "target": "12"
+      "target": "12",
+      "sourceHandle": "bottom"
     },
     {
       "id": "e5-13",
       "source": "5",
-      "target": "13"
+      "target": "13",
+      "sourceHandle": "bottom"
     },
     {
       "id": "e5-14",
       "source": "5",
-      "target": "14"
+      "target": "14",
+      "sourceHandle": "bottom"
     }
   ]
 }

@@ -9,7 +9,8 @@ import ReactFlow, {
 } from 'reactflow';
 
 import 'reactflow/dist/style.css';
-import {CustomNode} from "./CustomNote.jsx";
+import {OpponentNode} from "./OpponentNode.jsx";
+import {ResponseNode} from "./ResponseNode.jsx";
 
 const styles = {
     background: '#F0F8FF',
@@ -21,7 +22,7 @@ export default function FlowChart() {
     const [nodes, setNodes, onNodesChange] = useNodesState([]);
     const [edges, setEdges, onEdgesChange] = useEdgesState([]);
 
-    const nodeTypes = useMemo(() => ({ customNode: CustomNode }), []);
+    const nodeTypes = useMemo(() => ({ OpponentNode: OpponentNode, ResponseNode: ResponseNode }), []);
 
     const onConnect = useCallback(
         (params) => setEdges((eds) => addEdge(params, eds)),
@@ -54,22 +55,48 @@ export default function FlowChart() {
             })
             .catch((error) => console.log("error", error));
     };
-
     const updateNode = (args) => {
         let params = args[0]
-        
-        let { x, y } = args[0]
-
+        if(params.position) {
+            let { x, y } = params.position
+            var requestOptions = {
+                method: "PATCH",
+                body: JSON.stringify({position: {x: x, y: y}}),
+                headers: {"Content-type": "application/json; charset=UTF-8"}
+            };
+            updateNodeRequest(params.id, requestOptions)
+        }
+        onNodesChange(args)
+    }
+    const onNodeClick = (event, object) => {
         var requestOptions = {
             method: "PATCH",
-            body: JSON.stringify({x, y}),
+            body: JSON.stringify({hidden: false}),
             headers: {"Content-type": "application/json; charset=UTF-8"}
         };
 
-        if(params.position) {
-            fetch('http://localhost:3030/vertices/' + params.id, requestOptions)
-        }
-        onNodesChange(args)
+        object.revealNodeIds.forEach((id) => {
+            updateNodeRequest(id, requestOptions)
+        })
+    }
+    const resetData = async () => {
+        let nodesToHide = [3,4,5,9,10,11,12,13,14,15]
+
+        var requestOptions = {
+            method: "PATCH",
+            body: JSON.stringify({hidden: true}),
+            headers: {"Content-type": "application/json; charset=UTF-8"}
+        };
+
+        let requests = nodesToHide.map((id) => {
+            return updateNodeRequest(id, requestOptions)
+        })
+
+        await Promise.all(requests)
+    }
+
+    const updateNodeRequest = async (id, requestOptions) => {
+        fetch('http://localhost:3030/vertices/' + id, requestOptions).then(() => getVertices())
     }
 
     useEffect(() => {
@@ -79,6 +106,7 @@ export default function FlowChart() {
 
     return (
         <div style={{ width: '100vw', height: '100vh' }}>
+            <button onClick={() => resetData()}>Reset Data</button>
             <ReactFlow
                 nodes={nodes}
                 edges={edges}
@@ -87,6 +115,7 @@ export default function FlowChart() {
                 onConnect={onConnect}
                 nodeTypes={nodeTypes}
                 style={styles}
+                onNodeClick={onNodeClick}
                 // fitView
             >
 
