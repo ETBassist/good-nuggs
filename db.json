@@ -20,8 +20,8 @@
     {
       "id": "2",
       "position": {
-        "x": 255.44503781303973,
-        "y": 6.497081066493941
+        "x": 246.26563348030857,
+        "y": 2.3246245516161252
       },
       "data": {
         "label": "Chicago Bears"
@@ -38,8 +38,8 @@
       "id": "3",
       "hidden": false,
       "position": {
-        "x": 527.2698570419282,
-        "y": 2.2137194590945484
+        "x": 525.6008744359771,
+        "y": -36.958737055783274
       },
       "data": {
         "label": "Rodger Federer"
@@ -56,8 +56,8 @@
       "id": "4",
       "hidden": false,
       "position": {
-        "x": 794.1906594127806,
-        "y": 9.115264691277943
+        "x": 791.5216768068295,
+        "y": 1.9428081764001206
       },
       "data": {
         "label": "San Francisco Giants"
@@ -74,8 +74,8 @@
       "id": "5",
       "hidden": false,
       "position": {
-        "x": 1056.8151784542315,
-        "y": 9.687242929619778
+        "x": 1111.649669757207,
+        "y": -36.65072228228249
       },
       "data": {
         "label": "Anthony Edwards"
@@ -91,8 +91,8 @@
     {
       "id": "6",
       "position": {
-        "x": 1340.5666379209845,
-        "y": 136.54278890328126
+        "x": 1356.5666379209845,
+        "y": 101.54278890328126
       },
       "data": {
         "label": "Stanley Cup"
@@ -108,8 +108,8 @@
     {
       "id": "7",
       "position": {
-        "x": 226.57654937441387,
-        "y": 265.6583890917239
+        "x": 237.57654937441387,
+        "y": 259.6583890917239
       },
       "data": {
         "label": "Yes"
@@ -129,8 +129,8 @@
     {
       "id": "8",
       "position": {
-        "x": 373.4404096277688,
-        "y": 268.7153328169333
+        "x": 360.4404096277688,
+        "y": 260.7153328169333
       },
       "data": {
         "label": "No"
@@ -149,8 +149,8 @@
       "id": "9",
       "hidden": false,
       "position": {
-        "x": 513.6432095954627,
-        "y": 265.21970543133034
+        "x": 506.64320959546274,
+        "y": 268.21970543133034
       },
       "data": {
         "label": "Yes"
@@ -171,8 +171,8 @@
       "id": "10",
       "hidden": false,
       "position": {
-        "x": 655.4652037902641,
-        "y": 269.76536380127646
+        "x": 648.4652037902641,
+        "y": 267.76536380127646
       },
       "data": {
         "label": "No"
@@ -190,8 +190,8 @@
     {
       "id": "11",
       "position": {
-        "x": 784.755065348895,
-        "y": 280.7903457396596
+        "x": 783.755065348895,
+        "y": 267.7903457396596
       },
       "data": {
         "label": "Yes"
@@ -212,8 +212,8 @@
     {
       "id": "12",
       "position": {
-        "x": 917.4386588779267,
-        "y": 286.2961744203592
+        "x": 932.4386588779267,
+        "y": 267.2961744203592
       },
       "data": {
         "label": "No"
@@ -232,8 +232,8 @@
     {
       "id": "13",
       "position": {
-        "x": 1019.6256051015271,
-        "y": 287.7252058507391
+        "x": 1033.625605101527,
+        "y": 269.7252058507391
       },
       "data": {
         "label": "Try your darnedest"
@@ -252,8 +252,8 @@
     {
       "id": "14",
       "position": {
-        "x": 1241.6124904986993,
-        "y": 290.8311428389188
+        "x": 1268.6124904986993,
+        "y": 269.8311428389188
       },
       "data": {
         "label": "No"
@@ -284,74 +284,99 @@
         "x": 1129.3424831058849,
         "y": 516.6231132586113
       },
-      "hidden": false
+      "hidden": true
     }
   ],
   "edges": [
     {
       "id": "e1-2",
+      "type": "step",
+      "label": "VS",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
       "source": "1",
       "target": "2"
     },
     {
       "id": "e2-3",
+      "type": "step",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
       "source": "2",
       "target": "3"
     },
     {
       "id": "e3-4",
+      "type": "step",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
       "source": "3",
       "target": "4"
     },
     {
       "id": "e4-5",
+      "type": "step",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
       "source": "4",
       "target": "5"
     },
     {
       "id": "e2-7",
+      "type": "step",
       "source": "2",
       "target": "7",
       "sourceHandle": "bottom"
     },
     {
       "id": "e2-8",
+      "type": "step",
       "source": "2",
       "target": "8",
       "sourceHandle": "bottom"
     },
     {
       "id": "e3-9",
+      "type": "step",
       "source": "3",
       "target": "9",
       "sourceHandle": "bottom"
     },
     {
       "id": "e3-10",
+      "type": "step",
       "source": "3",
       "target": "10",
       "sourceHandle": "bottom"
     },
     {
       "id": "e4-11",
+      "type": "step",
       "source": "4",
       "target": "11",
       "sourceHandle": "bottom"
     },
     {
       "id": "e4-12",
+      "type": "step",
       "source": "4",
       "target": "12",
       "sourceHandle": "bottom"
     },
     {
       "id": "e5-13",
+      "type": "step",
       "source": "5",
       "target": "13",
       "sourceHandle": "bottom"
     },
     {
       "id": "e5-14",
+      "type": "step",
       "source": "5",
       "target": "14",
       "sourceHandle": "bottom"
